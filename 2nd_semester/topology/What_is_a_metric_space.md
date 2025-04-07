@@ -14,28 +14,36 @@ A metric space is a pair **(X, d)** where:
 The function **d(x, y)** must satisfy the following four properties for all **x, y, z ∈ X**:
 
 1. **Non-negativity**:  
-   \( d(x, y) \geq 0 \)
+   $$
+   d(x, y) \geq 0
+   $$
 
 2. **Identity of Indiscernibles**:  
-   \( d(x, y) = 0 \iff x = y \)
+   $$
+   d(x, y) = 0 \iff x = y
+   $$
 
 3. **Symmetry**:  
-   \( d(x, y) = d(y, x) \)
+   $$
+   d(x, y) = d(y, x)
+   $$
 
 4. **Triangle Inequality**:  
-   \( d(x, z) \leq d(x, y) + d(y, z) \)
+   $$
+   d(x, z) \leq d(x, y) + d(y, z)
+   $$
 
 ---
 
 ## 🔢 Example: Euclidean Space
 
-Let \( X = \mathbb{R}^2 \), the 2D Cartesian plane. Define the distance function as:
+Let $X = \mathbb{R}^2$, the 2D Cartesian plane. Define the distance function as:
 
-\[
+$$
 d(x, y) = \sqrt{(x_1 - y_1)^2 + (x_2 - y_2)^2}
-\]
+$$
 
-This is the standard **Euclidean distance**. The pair \( (\mathbb{R}^2, d) \) is a metric space.
+This is the standard **Euclidean distance**. The pair $(\mathbb{R}^2, d)$ is a metric space.
 
 ---
 
